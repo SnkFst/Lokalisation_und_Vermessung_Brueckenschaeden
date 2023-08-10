@@ -1,0 +1,13 @@
+1. Extrahieren der MP4 aus der GoPro08
+2. Umwandeln der MP4 mittels gopro_ros
+(https://github.com/AutonomousFieldRoboticsLab/gopro_ros Stand: 05.06.2023)
+in BAG-Datei mit Themen: /gopro/image_raw/compressed und /gopro/i-
+mu
+3. Extrahieren der GPS Daten aus der GoPro mittels Telemtry Extractor (htt-
+ps://goprotelemetryextractor.com/free/ Stand: 05.06.2023)
+4. Anpassen der Zeitschritte der GPS-Daten
+5. Einfügen der GPS-Daten in die BAG-Datei unter dem Thema /leica/posi-
+tion
+6. Umwandelung der Themen der BAG-Datei in /cam0/image_raw und /i-
+mu0
+7. Reduzierung der Bilddaten und GPS Daten auf 20 fps beziehungsweise hz
