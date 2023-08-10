@@ -1,8 +1,0 @@
-1. Umwandeln der MP4 mittels gopro_ros
-(https://github.com/AutonomousFieldRoboticsLab/gopro_ros Stand: 05.06.2023)
-in ASL-Format
-2. Berechnung Timeoffset zwischen Zeitstempel der IMU und der Bilder und
-Anpassung der Zeitstempel der Bilder an diesen Unterschied
-3. Reduzierung der Bilddaten auf 20 fps
-4. Synchronisation der Zeitstempel der IMU und Bilder auf einen genau glei-
-chen Zeitstempel und Erstellung einer Text Datei
