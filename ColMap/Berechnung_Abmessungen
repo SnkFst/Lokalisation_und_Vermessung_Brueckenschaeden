@@ -1,1 +1,3 @@
 Hier wird das Skrip zur Berechnung der Größe eines Schrittes in der generierten ColMap Punktwolke in metrische Einheiten angezeigt. Angewendet wird die Haversine Formel.
+Das Ergebnis dieses Skipts kann dann auf ie relative Enfernung der beiden Bilder angewendet werden und auf eins normiert werden. Dadurch enthält man die tatsächliche Länge eines 
+Schrittes im relativen Raum.
