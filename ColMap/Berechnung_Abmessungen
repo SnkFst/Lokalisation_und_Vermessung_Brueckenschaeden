@@ -1,3 +1,12 @@
 Hier wird das Skrip zur Berechnung der Größe eines Schrittes in der generierten ColMap Punktwolke in metrische Einheiten angezeigt. Angewendet wird die Haversine Formel.
 Das Ergebnis dieses Skipts kann dann auf ie relative Enfernung der beiden Bilder angewendet werden und auf eins normiert werden. Dadurch enthält man die tatsächliche Länge eines 
 Schrittes im relativen Raum.
+
+Ablauf: 
+Als Erstes werden dazu in ColMap zwei angezeigte Images ausgewählt und ihre relativen Koordinaten gespeichert. 
+Diese beiden Bildern werden ihrem Zeitstempel im Video zugeordnet.
+Anschließend erfolgt die Extraktion der GPS-Daten aus dem Video und die Zuordnung der zwei Bilder anhand ihrer Zeitstempel den GPS-Daten.
+Mit diese Daten und den relativen Koordinaten von ColMap kann nun mittels der Haversine-Formel der Abstand der beiden Bilder zueinander berechnet werden. 
+Daraus resultierend kann die Größe einer Einheit in ColMap in eine metrische Einheit umgewandelt werden. 
+Als Nächstes werden die äußersten Punkte des Schadens per Hand angewählt und ihre relativen Koordinaten extrahiert.
+Der ermittelte Abstand dieser Punkte kann abschließend mithilfe der normierten Einheit von ColMap berechnet werden.
