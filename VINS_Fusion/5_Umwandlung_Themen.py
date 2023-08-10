@@ -3,8 +3,8 @@ import rosbag
 from sensor_msgs.msg import CompressedImage, Image, Imu
 from cv_bridge import CvBridge
 
-old_bag_filename = 'output.bag'
-new_bag_filename = 'new.bag'
+old_bag_filename = 'final.bag'
+new_bag_filename = 'IMU_Camera_GPS.bag'
 
 bridge = CvBridge()
 
