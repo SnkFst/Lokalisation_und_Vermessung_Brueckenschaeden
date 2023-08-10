@@ -3,8 +3,8 @@ import rosbag
 from sensor_msgs.msg import Image
 from geometry_msgs.msg import PointStamped
 
-input_bag = "final2.bag"
-output_bag = "reduced_data.bag"
+input_bag = "IMU_Camera_GPS.bag"
+output_bag = "final.bag"
 target_frame_rate = 20
 target_measurement_rate = 20
 
