@@ -1,0 +1,5 @@
+Genutzt wurde das Repo https://github.com/urbste/OpenImuCameraCalibrator zur Kalibrierung der Kamera und IMU zueinander und der Kamera selbst.
+
+Für die Hintergundgeräusche wurde das Repo https://github.com/ori-drs/allan_variance_ros verwendet. 
+
+Die gewonnenen Parameter wurden mit den hier gegebenen Codes in benötigte Parameter umgewandelt werden.
