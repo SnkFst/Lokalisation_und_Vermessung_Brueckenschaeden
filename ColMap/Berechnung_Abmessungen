@@ -10,3 +10,6 @@ Mit diese Daten und den relativen Koordinaten von ColMap kann nun mittels der Ha
 Daraus resultierend kann die Größe einer Einheit in ColMap in eine metrische Einheit umgewandelt werden. 
 Als Nächstes werden die äußersten Punkte des Schadens per Hand angewählt und ihre relativen Koordinaten extrahiert.
 Der ermittelte Abstand dieser Punkte kann abschließend mithilfe der normierten Einheit von ColMap berechnet werden.
+
+
+Ebenso ist das Skipt zur Extraktion der Frames in die verschiedenen Subordner gegeben.
