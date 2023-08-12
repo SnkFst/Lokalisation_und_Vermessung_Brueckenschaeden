@@ -10,3 +10,6 @@ tion
 5. Umwandelung der Themen der BAG-Datei in /cam0/image_raw und /i-
 mu0
 6. Reduzierung der Bilddaten und GPS Daten auf 20 fps beziehungsweise hz
+
+
+Ebenso sind die beiden Config-files der GoPro für VINS-Fusion gegeben.
